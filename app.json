@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fotos-live",
-    "slug": "fotos-live",
+    "name": "photos-live",
+    "slug": "photos-live",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

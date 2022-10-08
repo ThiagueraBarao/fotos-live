@@ -1,6 +1,9 @@
 {
   "name": "fotos-live",
+  "description": " fotos-live Mobile App",
+  "privacy": "public",
   "version": "1.0.0",
+  "slug": "fotos-live",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -9,10 +12,15 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~46.0.13",
+    "@expo/webpack-config": "^0.17.0",
+    "expo": "^46.0.15",
     "expo-status-bar": "~1.4.0",
+    "install": "^0.13.0",
     "react": "18.0.0",
-    "react-native": "0.69.6"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-web": "~0.18.7",
+    "react-native-webview": "11.23.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
